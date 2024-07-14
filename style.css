@@ -14,7 +14,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   border-radius: 6px;
-  padding: 15px 45px;
+  padding: 15px 30px;
   border: none;
   background-color: #f46060;
 }
@@ -145,5 +145,43 @@ body {
 
   .nav-container li {
     margin-right: 0;
+  }
+
+  .personal-info-container {
+    margin: 0;
+    /* height: 1500px; */
+  }
+
+  .photo-1 {
+    width: 300px;
+    height: 400px;
+    top: 0;
+    left: 50px;
+  }
+
+  .photo-2 {
+    display: none;
+  }
+
+  .name {
+    top: 400px;
+    left: 20px;
+  }
+
+  .name h3 {
+    font-size: 3rem;
+  }
+
+  .about {
+     left: 20px;
+  }
+
+  .about h3{
+      font-size: 2.5rem;
+  }
+
+  .btn-box {
+    display: flex;
+    justify-content: center;
   }
 }
